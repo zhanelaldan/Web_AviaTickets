@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f5f9; /* Light blue background */
+    color: #333; /* Dark text color */
+}
+
+/* Styles for first_col */
+.first_col {
+    background-color: #4682b4; /* Medium blue */
+    color: #fff; /* White text color */
+    height: auto;
+    max-width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 90%;
+    margin: 100px auto 50px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* Styles for row-last */
+.row-last {
+    background-color: #6495ed; /* Lighter blue */
+    color: #fff; /* White text color */
+    width: 60%;
+    margin: 50px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Styles for primary button */
+.btn-primary {
+    background-color: #4169e1; /* Darker blue */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* White text color */
+}
+
+/* Hover effect for primary button */
+.btn-primary:hover {
+    background-color: #4682b4; /* Medium blue */
+}
+
+/* Styles for form controls */
+.form-control {
+    height: 52px;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #4169e1; /* Darker blue */
+    padding: 10px;
+    width: 100%;
+    color: #000; /* Black text color */
+}
+
+/* Focus effect for text input */
+.form-control:focus {
+    border: 2px solid #4169e1; /* Darker blue */
+    outline: none;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .first_col {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .row-last {
+        width: 100%;
+    }
+}

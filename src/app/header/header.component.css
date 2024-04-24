@@ -1,53 +1,46 @@
-
 .head {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    height:60px;  
+    height: 60px;
     font-size: 0.9em;
     color: rgb(91, 90, 90);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 .out {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 #contact {
-    margin-right: 100px;
+    margin-right: 20px; /* Adjusted margin */
     background-color: rgb(62, 92, 184);
-    border-color:rgb(47, 79, 179); 
-    border-style: solid;
-    border-width: 1px;
-    color:white;
-    justify-content: center;
+    border: 1px solid rgb(47, 79, 179); /* Combined border shorthand */
+    color: white;
     border-radius: 45px;
     width: 100px;
-    height: 35px
-
+    height: 35px;
 }
 
 img {
-    margin-left: 80px;
+    margin-left: 20px; /* Adjusted margin */
     width: 100px;
-    /* height:50px */
 }
 
-#signin, #signup {
+#signin,
+#signup {
     background-color: rgb(241, 245, 245);
-    border-style: solid;
-    border-style: none;
-    color:rgb(91, 90, 90);
+    border: none; /* Removed duplicate border-style property */
+    color: rgb(91, 90, 90);
     justify-content: center;
     border-radius: 45px;
     width: 100px;
     height: 35px;
-    margin-right: -100px;
+    margin-right: 20px; /* Adjusted margin */
 }
 
 a {
@@ -64,6 +57,5 @@ a:hover {
 }
 
 .space {
-    width: 50px;
+    width: 20px; /* Adjusted width */
 }
-
